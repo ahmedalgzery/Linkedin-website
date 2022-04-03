@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Linkedin.png">
+    <link rel="stylesheet" href="login-page.css" />
+    <title>Sign In</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="header-title">
+            <h1>Linked <span class="text-primary">in</span></h1>
+        </div>
+        <div class="header-text">Make The Most Of Your Professional Life</div>
+    </header>
+
+    <section class="main-section">
+        <form action="home.html" class="my-form">
+            <div class="form-group">
+                <label for="email-input">Email</label>
+                <input type="email" id="email-input" required />
+            </div>
+            <div class="form-group">
+                <label for="email-input">Password (6 or more characters)</label>
+                <input type="password" id="password-input" required />
+            </div>
+            <div class="helper-text">
+               
+         <input type="checkbox" id="agree" name="agree" value="agree" required>
+         <small>
+           By Clicking Agree & Join, You Agree to the LinkedIn 
+           
+           <span class="text-primary">
+              <a href="#">User Agreement,</a>
+              <a href="#">Privacy,Policy,</a>
+              and
+              <a href="#">Cookie Policy.</a>
+           </span>
+        </small>
+            </div>
+            <div class="form-group">
+
+                <input type="submit" class="submit-btn" value="Agree & Join">
+            </div>
+            <p class="sign-up-text">
+                Do you want to join LinkedIn?
+                <a href="Ahmed-Hilal/index.html">Sign Up</a>
+            </p>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        Linked
+        <span>in</span> &copy; 2022
+    </footer>
+    <script>
+        function newDoc() {
+            window.location.assign("home.html")
+        }
+    </script>
+
+
+</body>
+
+</html>
